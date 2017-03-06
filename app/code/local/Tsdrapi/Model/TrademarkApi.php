@@ -5,6 +5,9 @@ namespace local\Tsdrapi\Model;
 use core\Master\Model\AbstractModel;
 use local\Tsdrapi\lib\TsdrApi;
 
+/**
+* @TODO add registraton number searches
+*/
 class TrademarkApi extends AbstractModel
 {
 	
