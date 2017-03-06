@@ -8,6 +8,7 @@ The layout is pretty simple (if you know magento, it's even simpler) and so are 
 2) The purpose of this is to handle communications between two systems
 
 3) The way you call "actions" is similar to Magento:
+
     * Http://api.domain.com/ModuleName/Controller/Action/key1/value1/key2/value2...
     
 Not too many bells and whistles
