@@ -54,6 +54,10 @@ abstract class AbstractController implements ControllerInterface
 		return $this->_request->getMethod();
 	}
 	
+	/**
+	 * {@inheritDoc}
+	 * @see \core\Master\Controller\ControllerInterface::getPostRequestBody()
+	 */
 	public function getPostRequestBody()
 	{
 		return $this->getRequestObj()->getParsedBody();
