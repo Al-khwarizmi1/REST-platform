@@ -25,4 +25,13 @@ interface ControllerInterface
 	 * @return Array urlParams
 	 */
 	public function getUrlParams();
+	/**
+	 * @return String method
+	 */
+	public function getHttpMethod();
+	
+	/**
+	 * @return Unknown bodyParsed data sent from the client via http post request
+	 */
+	public function getPostRequestBody();
 }

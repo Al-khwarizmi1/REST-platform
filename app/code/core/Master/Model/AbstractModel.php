@@ -2,16 +2,6 @@
 
 namespace core\Master\Model;
 
-/**
- * Universal data container with array access implementation
- *
- * @author      Magento Core Team <core@magentocommerce.com>
- * @SuppressWarnings(PHPMD.NumberOfChildren)
- * 
- * EDITED:
- * Took out the dependencies of the zend framework and removed
- * bloat methods
- */
 abstract class AbstractModel implements \ArrayAccess
 {
 	/**
